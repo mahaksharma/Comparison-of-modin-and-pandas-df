@@ -1,1 +1,5 @@
 # Comparison-of-modin-and-pandas-df
+
+Pandas is a library which needs no introduction in the field of data science. It provides high-performance, easy-to-use data structures and data analysis tools. However, when working with excessively large amounts of data, Pandas on a single core becomes insufficient and people have to resort to different distributed systems to increase their performance. The tradeoff for improved performance, however, comes with a steep learning curve. Essentially users probably just want Pandas to run faster and aren’t looking to optimize their workflows for their particular hardware setup. This means people want to use the same Pandas script for their 10KB dataset as their 10TB dataset. Modin offers to provide a solution by optimizing pandas so that Data Scientists spend their time extracting value from their data than on tools that extract data.
+
+In this repository i analysed both the data frames on titanic dataset from kaggle to see their performance with different df operations
